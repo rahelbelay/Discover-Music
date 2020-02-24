@@ -11,8 +11,8 @@
 
 ## project discription 
 
-Discover Music is a music searching app it gets data from the AudioDb api in order to render to the page. My app lets users to search singer by name to diplay the artist image, biography and it gives an access to view their social network like (facebook, twitter and webpage).
-Inaddition to this My app displays the singer album with tracks. 
+Discover Music is a music searching app that gets data from the AudioDb API. My app lets users search the artist by name and the result will diplay the artist's songs, albums, image and biography. Additionally, it gives access to view their social network like (facebook, twitter and web page).
+
 
 ## API Utilized
  - TheAudioDB API - https://www.theaudiodb.com
