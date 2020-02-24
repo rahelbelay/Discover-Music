@@ -31,7 +31,7 @@ export default function AlbumList() {
     }, [])
 
     if (musics && musics.length === 0) {
-        return <div>Loading...</div>
+        return <div className="loading">Loading...</div>
     } else {
         return (
             <div className="albums">

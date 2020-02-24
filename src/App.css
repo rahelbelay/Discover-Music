@@ -82,11 +82,11 @@ table {
   justify-content: space-between;
 }
 
-/* .title-duration {
+.title-duration {
   display: flex;
   justify-content: space-between;
 
-} */
+}
 .artistname {
   font-size: 10px;
   color: red;
@@ -97,10 +97,10 @@ table {
   color: red;
   text-decoration: none;
 }
-/* .artistname-song{
+.artistname-song{
   padding :10px, 10px, 10px, 10px;
   
-} */
+}
 
 .artist-container {
   display: flex;
@@ -160,4 +160,9 @@ footer {
 }
 .fas{
   margin-left: 10px;
+  margin-top: 14px;
+}
+
+.loading {
+  font-size: 16px;
 }

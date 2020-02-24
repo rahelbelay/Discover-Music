@@ -24,7 +24,7 @@ export default function TrackList() {
     }, [])
 
     if (musics && musics.length === 0) {
-        return <div>Loading...</div>
+        return <div className="loading">Loading...</div>
     } else {
         return (
             <>

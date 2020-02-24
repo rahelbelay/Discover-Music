@@ -1,7 +1,7 @@
 ##  Discover music
 
-
 ## Screenshots
+ ![Image](https://github.com/rahelbelay/Music-Finder/blob/master/src/Images/Screen%20Shot%202020-02-23%20at%207.45.14%20PM.png)
 ### Mobile layout
 xxx
 ## project discription 
@@ -9,7 +9,7 @@ xxx
 xxx is a music searching app it gets data from Deezer api in order to render to the page. My app lets users to search singer by name to get their album and top 25 songs.
 
 ## API Utilized
- - Deezer API - https://developers.deezer.com/api
+ - The AudioDB API - https://www.theaudiodb.com/
 
  ## Future Features
  - Adding more componentes like genre,lable,rating
