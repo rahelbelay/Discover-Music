@@ -15,14 +15,14 @@ Discover Music is a music searching app it gets data from the AudioDb api in ord
 Inaddition to this My app displays the singer album with tracks. 
 
 ## API Utilized
- - The AudioDB API - https://www.theaudiodb.com
+ - TheAudioDB API - https://www.theaudiodb.com
 
  ## Future Features
- - Adding more componentes like genre,lable,rating.
+ - Adding more characteristics like genre,lable,rating.
  - work on mobile display for responsiveness.
 
  ## Author
-  - Rahel
+  - Rahel Belay
 
 
 

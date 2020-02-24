@@ -10,6 +10,5 @@ function mapStateToProps(state) {
         musics: state.selectTopSongs
     }
 }
-
 const reduxConnector = connect(mapStateToProps);
 export default reduxConnector(ArtistName);

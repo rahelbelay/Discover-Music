@@ -44,6 +44,9 @@ table {
   align-items: center;       
   align-content: center;
 }
+.Search{
+  width: 70px;
+}
 
 .heart{
   color:red;

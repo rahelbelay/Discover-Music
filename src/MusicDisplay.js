@@ -7,6 +7,7 @@ import { Provider } from 'react-redux';
 import ArtistName from './container/ArtistNameContainer';
 import AlbumList from './container/AlbumListContainer';
 import Footer from './Footer';
+import Header from './Header';
 // import BioList from './component/BioList'
 
 import {
@@ -15,7 +16,6 @@ import {
     Route,
     Link
 } from "react-router-dom";
-import Header from './Header';
 
 const store = createStore(musics, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__())
 store.subscribe(() => {
