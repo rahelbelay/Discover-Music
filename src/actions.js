@@ -12,7 +12,6 @@ export function actionSearchGenre(albums) {
     }
 }
 
-
 export function actionTopSongs(selectTopSongs) {
     return {
         type: SELECT_TOP_100,

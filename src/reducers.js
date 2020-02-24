@@ -1,12 +1,10 @@
 import {
     SELECT_TOP_100,
-    // SELECT_TOP_ALBUMS,
     LOADING,
 } from "./actions";
 const id = 0;
 const defaultState = {
     selectTopSongs: [],
-    selectTopAlbums: [],
     isLoading: false
 }
 export function musics(state = defaultState, action) {
@@ -18,12 +16,7 @@ export function musics(state = defaultState, action) {
                 id,
                 selectTopSongs: action.payload.selectTopSongs,
             }
-        // case SELECT_TOP_ALBUMS:
-        //     return {
-        //         ...state,
-        //         id,
-        //         selectTopAlbums: action.payload.selectTopAlbums,
-        //     }
+
         case LOADING:
             return {
                 ...state,

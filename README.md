@@ -1,4 +1,4 @@
-##  Discover music
+#  Discover Music
 
 ## Screenshots
  ![Image](https://github.com/rahelbelay/Music-Finder/blob/master/src/Images/Screen%20Shot%202020-02-23%20at%207.45.14%20PM.png)
@@ -11,11 +11,11 @@
 
 ## project discription 
 
-Miusic Discover is a music searching app it gets data from the AudioDb api in order to render to the page. My app lets users to search singer by name to diplay the artist image, biography and it gives an access to view their social network like (facebook, twitter and webpage).
+Discover Music is a music searching app it gets data from the AudioDb api in order to render to the page. My app lets users to search singer by name to diplay the artist image, biography and it gives an access to view their social network like (facebook, twitter and webpage).
 Inaddition to this My app displays the singer album with tracks. 
 
 ## API Utilized
- - The AudioDB API - https://www.theaudiodb.com/
+ - The AudioDB API - https://www.theaudiodb.com
 
  ## Future Features
  - Adding more componentes like genre,lable,rating.
