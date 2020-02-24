@@ -19,15 +19,15 @@ export default function ArtistName({ musics }) {
     }
 
     return (
-        <div style={{ padding: '2em' }}>
+        <div style={{ padding: '2em' }} className="artistcard-content">
             {musics && musics.artists && musics.artists.map(artist => (
                 <div key={artist.idArtist} className="artist-info" >
-                    <Card>
+                    <Card >
                         <div className="card-container">
                             <div className="artist-container">
                                 <img className="artist-img" src={artist.strArtistThumb}></img>
                             </div>
-                            <CardContent>
+                            <CardContent className="">
                                 <Typography gutterBottom variant="h5" component="h2">
                                     {artist.strArtist}
                                 </Typography>

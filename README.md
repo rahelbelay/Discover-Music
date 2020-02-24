@@ -8,19 +8,18 @@
 ![Image](https://github.com/rahelbelay/Music-Finder/blob/master/src/Images/Screen%20Shot%202020-02-23%20at%207.47.38%20PM.png)
 
 ![Image](https://github.com/rahelbelay/Music-Finder/blob/master/src/Images/Screen%20Shot%202020-02-23%20at%208.24.26%20PM.png)
-### Mobile layout
-xxx
+
 ## project discription 
 
-xxx is a music searching app it gets data from Deezer api in order to render to the page. My app lets users to search singer by name to get their album and top 25 songs.
+Miusic Discover is a music searching app it gets data from the AudioDb api in order to render to the page. My app lets users to search singer by name to diplay the artist image, biography and it gives an access to view their social network like (facebook, twitter and webpage).
+Inaddition to this My app displays the singer album with tracks. 
 
 ## API Utilized
  - The AudioDB API - https://www.theaudiodb.com/
 
  ## Future Features
- - Adding more componentes like genre,lable,rating
- - Add another api to get more data since deezer api does not have the features what i want
- - Filter the repeated albums and songs
+ - Adding more componentes like genre,lable,rating.
+ - work on mobile display for responsiveness.
 
  ## Author
   - Rahel
