@@ -2,6 +2,12 @@
 
 ## Screenshots
  ![Image](https://github.com/rahelbelay/Music-Finder/blob/master/src/Images/Screen%20Shot%202020-02-23%20at%207.45.14%20PM.png)
+
+ ![Image](https://github.com/rahelbelay/Music-Finder/blob/master/src/Images/Screen%20Shot%202020-02-23%20at%207.46.33%20PM.png)
+
+![Image](https://github.com/rahelbelay/Music-Finder/blob/master/src/Images/Screen%20Shot%202020-02-23%20at%207.47.38%20PM.png)
+
+![Image](https://github.com/rahelbelay/Music-Finder/blob/master/src/Images/Screen%20Shot%202020-02-23%20at%208.24.26%20PM.png)
 ### Mobile layout
 xxx
 ## project discription 
