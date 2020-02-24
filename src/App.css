@@ -1,38 +1,163 @@
-.App {
+.app {
+  /* text-align: center; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 95vh;
+  padding: 10px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  width: 100%;
+
+}
+body {
+  overflow: scroll;
+  background: #f1f1f1;
+  font-size: 8px;
+  font-family: 'Roboto', sans-serif;
+}
+
+img{
+  border-radius: 4px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+img:hover {
+  box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2),
+              0px 4px 5px 0px rgba(0,0,0,0.14),
+              0px 1px 10px 0px rgba(0,0,0,0.12);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+table {
+  border-collapse: collapse;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;       
+  align-content: center;
+}
+
+.heart{
+  color:red;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}  
+
+.header-item-placeholder{
+  width: 1px;
+}
+
+.table { 
+  padding: 8px;
+  width: 260px;
+  height: 320px;
+  border-radius: 4px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.table:hover {
+  box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2),
+  0px 4px 5px 0px rgba(0,0,0,0.14),
+  0px 1px 10px 0px rgba(0,0,0,0.12);
+}
+
+
+.thead {
+  color: red;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* .title-duration {
+  display: flex;
+  justify-content: space-between;
+
+} */
+.artistname {
+  font-size: 10px;
+  color: red;
+  text-decoration: none;
+}
+.artistsong {
+  font-size: 8px;
+  color: red;
+  text-decoration: none;
+}
+/* .artistname-song{
+  padding :10px, 10px, 10px, 10px;
+  
+} */
+
+.artist-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.artist-img {
+  max-width: 400px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.album-title {
+  display:block;
+  width:100px;
+  word-wrap:break-word;
+  align-items: center;
+}
+.card-container {
+  display: flex;
+  max-height: 500px;
+}
+
+footer {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+}
+
+.artists-info{
+  display: flex;
+  flex-direction: column;
+}
+
+.track-list{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.fab {
+  padding: 2px
+}
+.album-img {
+  height: 250px;
+  width: 250px;;
+}
+.albums {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.album-card{
+  max-width: 250px;
+  margin: 2em;
+}
+.fas{
+  margin-left: 10px;
 }
